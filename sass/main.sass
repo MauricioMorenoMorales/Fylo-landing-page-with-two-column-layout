@@ -40,8 +40,12 @@ header
 	flex-direction: column
 	padding: $mobile-container-padding
 	text-align: center
-	margin-bottom: $margin-large
+	padding-bottom: $margin-large
 	margin-top: $margin-medium
+	background-image: url('../images/bg-curve-mobile.svg')
+	background-repeat: no-repeat
+	background-position: bottom
+	background-size: 100% auto
 	figure
 		width: 90vw
 	article
@@ -62,3 +66,26 @@ header
 			border: none
 			height: $button-height
 			border-radius: 3px
+
+.description
+	padding: $mobile-container-padding
+	background-color: #f6f6f6
+	text-align: center
+	figure
+		width: 90vw
+	&-text
+		p
+			color: $desaturated-blue
+			text-align: start
+	button
+		display: flex
+		align-items: center
+		margin: 0 auto
+		padding-bottom: 4px
+		cursor: pointer
+		border: none
+		border-bottom: 1px solid $moderate-cyan
+		background-color: $light-grayish-blue
+		color: $moderate-cyan
+		span
+			margin-left: 7px

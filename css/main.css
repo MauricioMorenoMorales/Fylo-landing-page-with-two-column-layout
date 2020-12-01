@@ -54,8 +54,12 @@ header nav a {
   flex-direction: column;
   padding: 0 7%;
   text-align: center;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   margin-top: 50px;
+  background-image: url("../images/bg-curve-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
 }
 .hero figure {
   width: 90vw;
@@ -80,4 +84,31 @@ header nav a {
   border: none;
   height: 40px;
   border-radius: 3px;
+}
+
+.description {
+  padding: 0 7%;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+.description figure {
+  width: 90vw;
+}
+.description-text p {
+  color: #585989;
+  text-align: start;
+}
+.description button {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 4px;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid #3c9f8f;
+  background-color: #f6f6fe;
+  color: #3c9f8f;
+}
+.description button span {
+  margin-left: 7px;
 }
