@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -14,6 +15,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
+  font-size: 1.6rem;
 }
 
 figure {
@@ -45,4 +47,37 @@ header nav a {
   text-decoration: none;
   margin-left: 5px;
   color: #070439;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 0 7%;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+.hero figure {
+  width: 90vw;
+}
+.hero article h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.hero-input {
+  display: flex;
+  flex-direction: column;
+}
+.hero-input input {
+  height: 40px;
+  color: #f6f6fe;
+  margin-bottom: 20px;
+}
+.hero-input button {
+  background-color: #3065f8;
+  color: #f6f6fe;
+  border: none;
+  height: 40px;
+  border-radius: 3px;
 }
