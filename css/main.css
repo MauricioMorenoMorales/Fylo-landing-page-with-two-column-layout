@@ -15,7 +15,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 figure {
@@ -111,4 +111,37 @@ header nav a {
 }
 .description button span {
   margin-left: 7px;
+}
+.description-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 9px 2px #00000026;
+  border-radius: 4px;
+  text-align: start;
+  padding: 5%;
+  background-image: url("../images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: 5% 8%;
+}
+.description-card__perfil {
+  display: flex;
+  align-items: center;
+}
+.description-card__perfil figure {
+  width: 30px;
+}
+.description-card__perfil figure img {
+  border-radius: 50%;
+}
+.description-card__perfil__name {
+  margin-left: 10px;
+}
+.description-card__perfil__name h5 {
+  margin-top: 0;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.description-card__perfil__name h6 {
+  margin: 0;
+  font-weight: 400;
 }
