@@ -108,6 +108,7 @@ header nav a {
   border-bottom: 1px solid #3c9f8f;
   background-color: #f6f6fe;
   color: #3c9f8f;
+  margin-bottom: 50px;
 }
 .description button span {
   margin-left: 7px;
@@ -115,13 +116,14 @@ header nav a {
 .description-card {
   display: flex;
   flex-direction: column;
-  box-shadow: 1px 1px 9px 2px #00000026;
+  box-shadow: 1px 1px 9px 2px #0000001e;
   border-radius: 4px;
   text-align: start;
   padding: 5%;
   background-image: url("../images/icon-quotes.svg");
   background-repeat: no-repeat;
   background-position: 5% 8%;
+  margin-bottom: 100px;
 }
 .description-card__perfil {
   display: flex;
@@ -144,4 +146,28 @@ header nav a {
 .description-card__perfil__name h6 {
   margin: 0;
   font-weight: 400;
+}
+
+.register {
+  background-color: #585989;
+  color: #f6f6fe;
+  text-align: center;
+  padding: 50px 7%;
+}
+.register__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register__input input, .register__input button {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 9px 2px #0000001e;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.register__input button {
+  background-color: #3065f8;
+  color: #f6f6fe;
 }

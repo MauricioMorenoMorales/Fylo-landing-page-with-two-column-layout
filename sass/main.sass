@@ -87,6 +87,7 @@ header
 		border-bottom: 1px solid $moderate-cyan
 		background-color: $light-grayish-blue
 		color: $moderate-cyan
+		margin-bottom: $margin-medium
 		span
 			margin-left: 7px
 	&-card
@@ -99,6 +100,7 @@ header
 		background-image: url('../images/icon-quotes.svg')
 		background-repeat: no-repeat
 		background-position: 5% 8%
+		margin-bottom: $margin-large
 		&__perfil
 			display: flex
 			align-items: center
@@ -115,3 +117,23 @@ header
 				h6
 					margin: 0
 					font-weight: $font-weight-body-normal
+
+.register
+	background-color: $desaturated-blue
+	color: $light-grayish-blue
+	text-align: center
+	padding: $margin-medium 7%
+	&__input
+		display: flex
+		flex-direction: column
+		align-items: center
+		input, button
+			height: $button-height
+			border-radius: 5px
+			border: none
+			box-shadow: $box-shadow
+			margin-bottom: 10px
+			width: 80%
+		button
+			background-color: $bright-blue
+			color: $light-grayish-blue
