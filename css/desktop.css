@@ -1,0 +1,49 @@
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 1.7rem;
+  }
+
+  .hero {
+    flex-direction: row-reverse;
+    padding-bottom: 200px;
+    background-image: url("../images/bg-curve-desktop.svg");
+    text-align: start;
+  }
+  .hero article h1 {
+    line-height: 160%;
+    font-size: 3rem;
+  }
+  .hero-input {
+    padding: 0;
+    flex-direction: row;
+  }
+  .hero-input input {
+    width: 50%;
+    margin-right: 10px;
+  }
+  .hero-input button {
+    width: 40%;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .description__figure {
+    max-width: 500px;
+    width: 30%;
+  }
+  .description-text {
+    margin: 0;
+    width: 100%;
+    max-width: 1000px;
+    text-align: start;
+  }
+  .description-text h2 {
+    font-size: 3rem;
+  }
+  .description-card {
+    margin: 0;
+  }
+}
