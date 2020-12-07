@@ -1,0 +1,51 @@
+@media screen and (min-width: 550px) {
+  header {
+    padding: 0 30px;
+  }
+  header nav a {
+    margin-left: 20px;
+  }
+
+  .hero figure {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero article {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .description__figure {
+    width: 100%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description-text {
+    width: 100%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .description-card {
+    width: 100%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .register article {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .register div {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
