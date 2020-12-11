@@ -75,11 +75,15 @@ header nav a {
 }
 .hero-input input {
   height: 40px;
-  color: #f6f6fe;
+  color: #070439;
   margin-bottom: 20px;
   border-radius: 3px;
   border: 1px solid #070439;
   padding: 0 10px;
+}
+.hero-input .input-active {
+  border: 1px solid red;
+  color: red;
 }
 .hero-input button {
   background-color: #3065f8;
@@ -171,6 +175,13 @@ header nav a {
   box-shadow: 1px 1px 9px 2px #0000001e;
   margin-bottom: 10px;
   width: 90%;
+}
+.register__input input {
+  padding-left: 10px;
+  color: #070439;
+}
+.register__input .input-active {
+  border: 1px solid red;
 }
 .register__input button {
   background-color: #3065f8;
