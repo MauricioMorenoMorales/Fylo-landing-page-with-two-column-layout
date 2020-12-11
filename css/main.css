@@ -111,7 +111,7 @@ header nav a {
 .description button {
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: 4px;
   cursor: pointer;
   border: none;
@@ -182,6 +182,7 @@ header nav a {
 }
 .register__input .input-active {
   border: 1px solid red;
+  color: red;
 }
 .register__input button {
   background-color: #3065f8;
