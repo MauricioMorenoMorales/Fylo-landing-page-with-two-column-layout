@@ -1,6 +1,6 @@
 @media screen and (min-width: 1000px) {
   body {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 
   .hero {
@@ -45,5 +45,55 @@
   }
   .description-card {
     margin: 0;
+  }
+
+  .register {
+    display: flex;
+    padding: 50px 3%;
+  }
+  .register article {
+    max-width: 1000px;
+    width: 50%;
+    text-align: start;
+  }
+  .register article h4 {
+    font-size: 3rem;
+  }
+  .register div {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 45%;
+    padding-left: 5%;
+  }
+  .register div input {
+    width: 100%;
+  }
+  .register div button {
+    width: 40%;
+  }
+
+  footer .footer-content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .footer-content__info {
+    margin-right: 3%;
+    align-items: flex-start;
+  }
+  footer .footer-content__about-us {
+    margin-right: 3%;
+    align-items: flex-start;
+  }
+  footer .footer-content__contact-us {
+    margin-right: 3%;
+    align-items: flex-start;
+  }
+  footer .footer-content__social {
+    margin-right: 3%;
+    align-items: flex-start;
+    margin-right: 0;
   }
 }
